@@ -1,0 +1,16 @@
+Partner Name - Alejandro Corona Garibay
+
+- How to trigger the event?
+    Clicking the mouse anywhere on the world will trigger the "disaster" event
+
+- What should happen when the event is triggered?
+    Surrounding area/ tiles are converted to the "nether", any nearby "Dude" entities become "DudeInfected" entities
+    and a "Monster" entity is spawned on a random affected tile.
+
+- What should the affected entities do?
+    The affected "DudeInfected" entities change their appearance and become infected. They start to move toward houses
+    and break them down
+
+- What should the new entity and how should it behave?
+    The new entity is a "Monster" entity that spawns on a random affected tile. They hunt down "fairy" entities, and
+    when they kill them, a gravestone appears on the tile they were killed.
