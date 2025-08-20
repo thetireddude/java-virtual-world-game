@@ -1,7 +1,3 @@
-# Partner: Alejandro Corona Garibay
-
-# Project 2 — Cohesion
-
 In this project, you are given a large object-oriented codebase and are asked to refactor it to improve its cohesion.
 
 Take some time to study this codebase. In doing so, you may have noticed that some classes support functionality (methods) that are not appropriate for all instances of the class. Moreover, these classes support data attributes that are not used by all instances of the class.
@@ -113,9 +109,3 @@ Consider the following tips.
 - For two methods that appear to be doing roughly the same thing, but that differ slightly in their implementation: examine the code to determine if the code can be rewritten to match. This does require careful consideration for what each method does (and does not) to avoid introducing bugs.
 
 - Some methods may have the same general structure (and match identically in significant portions), but differ in some segments. For such methods, the general structure and identical portions can be refactored into a parent class. This parent class will declare new protected abstract method(s) that each subclass then implements to define the unique behavior (as done in the calculator lab).
-
-## Assignment Submission
-
-Commit and push your code to your project GitHub repository.
-
-Your submission must include all source files (even those that were unchanged). Your grader should be able to build your project based on the files submitted. An explicit list of files is not given because you are creating new files for this assignment, so verify that you have submitted everything properly. Remove files from your repository that are no longer needed for your project (e.g. EntityKind.java).
